@@ -32,6 +32,7 @@ class MahasiswaController extends Controller
     {
         $mahasiswa = new Mahasiswa([
             'nama' => $request->input('nama'),
+            'nim' => $request->input('nim'),
             'jurusan' => $request->input('jurusan'),
         ]);
         $mahasiswa->save();

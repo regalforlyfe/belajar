@@ -9,6 +9,9 @@
                 <label>Nama mahasiswa</label>
                 <input type ="text" name="nama" class="form-control" placeholder=".....">
                 </br>
+                <label>NIM</label>
+                <input type ="text" name="nim" class="form-control" placeholder=".....">
+                </br>
                 <label>Jurusan</label>
                 <input type ="text" name="jurusan" class="form-control" placeholder=".....">
                 </br>
